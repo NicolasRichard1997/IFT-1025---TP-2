@@ -1,6 +1,7 @@
 import java.io.*;
 import java.net.ConnectException;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Controller {
@@ -10,15 +11,17 @@ public class Controller {
         String localHostIP = "127.0.0.1";
         int    port        =  1337;
 
-
+        // Opens the Scanner
+        Scanner sc  = new Scanner(System.in);
 
         try {
             Socket socket = new Socket(localHostIP,port);
-            System.out.println("Connexion au port 1337");
+            //System.out.println("Connexion au port 1337");
 
 
-            //
+            //Object Input/Output Initialized
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
+            ObjectInputStream  ois = new ObjectInputStream(socket.getInputStream());
 
 
 
@@ -34,32 +37,57 @@ public class Controller {
             while (connected) {
 
 
+
                 switch (ConnectionTracker) {
 
                     // Ecran de Bienvenue
                     case 0:
 
                         View.welcomeMessage();
+                        ConnectionTracker ++;
+                        break;
 
-                        Scanner sc  = new Scanner(System.in);
-                        int arg = sc.nextInt();
-                        sc.close();
+                    //Menu de Chargement
+                    case 1:
+                        View.promptUserChoice();
+                        //Scanner In
+                        String arg = sc.next();
+                        sc.nextLine();
 
-                        oos.writeObject(Model.eventsHandler("CHARGER", Integer.toString(arg)));
+                        //
+                        if (Model.sessions.contains(arg) == true){
+                            //System.out.println(Model.sessions.contains(arg));
+                            oos.writeObject(Model.eventsHandler("CHARGER", arg));
+                            ConnectionTracker ++;
 
-                        ConnectionTracker++;
-                        connected = false;
-
+                        }
+                        else{
+                            View.sessionSelectionError();
+                        }
                         break;
 
                     // Page de Selection de cours
-                    case 1:
-                        // code block
+                    case 2:
+                        System.out.println("case 2");
+
+                        try{
+
+                            ArrayList<ArrayList<String>> courselist = Model.objectToCourseList(ois.readObject());
+
+                            System.out.print(courselist);
+
+                        }
+                        catch(IOException | ClassNotFoundException e){
+                            System.out.println("Not working");
+                            connected = false;
+                        }
+
+
                         break;
 
 
                     // Page d'Inscription
-                    case 2:
+                    case 3:
                         // code block
 
 
@@ -76,5 +104,6 @@ public class Controller {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        sc.close();
     }
 }
