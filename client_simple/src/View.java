@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class View {
 
 
@@ -5,16 +7,50 @@ public class View {
 
     //Methods
 
-    public static void welcomeMessage(){
-        System.out.println(Model.welcomeText);
+    public static void commandLineprint(String text){
+        System.out.println(text);
     }
 
     public static void promptUserChoice() {
-        System.out.println("> Choix: ");
+        System.out.println("\n> Choix: ");
     }
-    public static void sessionSelectionError() {
-        System.out.println("\n*** Attention,Veuillez entrer le chiffre correspondant a " +
-                "la session choisie ***\n");
+    public static void selectionError() {
+        System.out.println("*** Veuillez entrer le chiffre correspondant a votre selection ***");
+    }
+    public static void userInputValidationFail() {
+        System.out.println("\n*** Valeure invalide. SVP reessayer ***");
+    }
+
+    public static void welcomeRegisterMenu() {
+        System.out.println("\n*** Menu d'inscription ****");
+    }
+    public static void promptUserFisrtName() {
+        System.out.println("Veuillez saisir votre prenom: ");
+    }
+    public static void promptUserLastName() {
+        System.out.println("\nVeuillez saisir votre nom: ");
+    }
+    public static void promptUserEmail() {
+        System.out.println("\nVeuillez saisir votre email: ");
+    }
+    public static void promptUserMatricule() {
+        System.out.println("\nVeuillez saisir votre matricule: ");
+    }
+    public static void promptUserCourseCode() {
+        System.out.println("\nVeuillez saisir le code du cours: ");
+    }
+
+
+
+    public static void displayCourseList (ArrayList<ArrayList<String>> courselist) {
+        System.out.println("\nCours offerts pour cette session:");
+        for (int i = 0; i < courselist.get(0).size(); i++) {
+            System.out.println(i + 1 + ".\t" + courselist.get(0).get(i) + "\t" + courselist.get(1).get(i));
+        }
+    }
+    public static void courseListDisplayOptions() {
+        System.out.println("\nVeuillez choisir une option:\n1. Consulter les cours offerts pour une autre sessions\n"+
+                            "2. Inscription a un cours");
     }
 }
 

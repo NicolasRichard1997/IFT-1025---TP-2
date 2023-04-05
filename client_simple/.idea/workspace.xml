@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4467580b-015c-4967-8217-39a10ba27eb1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../client_fx/src/main/java/com/example/client_fx/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client_fx/src/main/java/com/example/client_fx/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client_simple/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client_simple/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client_simple/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client_simple/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client_simple/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client_simple/Model.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/client_simple/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client_simple/View.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
@@ -75,6 +76,9 @@
       <workItem from="1680354843386" duration="9237000" />
       <workItem from="1680443182721" duration="16000" />
       <workItem from="1680443225612" duration="22127000" />
+      <workItem from="1680631992785" duration="5201000" />
+      <workItem from="1680649160336" duration="667000" />
+      <workItem from="1680704655046" duration="13640000" />
     </task>
     <servers />
   </component>
@@ -83,5 +87,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
