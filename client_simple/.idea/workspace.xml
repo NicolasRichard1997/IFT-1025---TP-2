@@ -5,20 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4467580b-015c-4967-8217-39a10ba27eb1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../client_fx/src/main/java/com/example/client_fx/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client_fx/src/main/java/com/example/client_fx/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client_fx/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client_fx/src/main/java/gui/client_fx/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client_fx/src/main/java/gui/client_fx/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client_fx/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client_fx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client_fx/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client_fx/src/main/java/com/example/client_fx/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client_fx/src/main/java/com/example/client_fx/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client_fx/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client_fx/src/main/resources/com/example/client_fx/hello-view.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/client_simple/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client_simple/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/client_simple/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client_simple/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client_simple/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client_simple/View.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server" beforeDir="false" afterPath="$PROJECT_DIR$/../server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,7 +87,16 @@
       <workItem from="1680443225612" duration="22127000" />
       <workItem from="1680631992785" duration="5201000" />
       <workItem from="1680649160336" duration="667000" />
-      <workItem from="1680704655046" duration="13640000" />
+      <workItem from="1680704655046" duration="13872000" />
+      <workItem from="1680739414452" duration="11259000" />
+      <workItem from="1680785264240" duration="3204000" />
+      <workItem from="1680788924410" duration="14000" />
+      <workItem from="1680793519350" duration="591000" />
+      <workItem from="1680794368667" duration="48000" />
+      <workItem from="1680795721660" duration="13000" />
+      <workItem from="1680814696739" duration="384000" />
+      <workItem from="1680816553922" duration="1259000" />
+      <workItem from="1680829522370" duration="67000" />
     </task>
     <servers />
   </component>

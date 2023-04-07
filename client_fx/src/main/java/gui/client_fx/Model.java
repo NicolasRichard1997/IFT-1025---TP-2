@@ -1,3 +1,4 @@
+package gui.client_fx;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.*;
@@ -24,8 +25,8 @@ public class Model {
 
     @SuppressWarnings("Unchecked")
     public static ArrayList<ArrayList<String>> objectToCourseList(Object object) {
-                    ArrayList<ArrayList<String>> courses = (ArrayList<ArrayList<String>>) object;
-                    return courses;
+        ArrayList<ArrayList<String>> courses = (ArrayList<ArrayList<String>>) object;
+        return courses;
     }
 
     public static boolean checkFirstname(String userFirstName){

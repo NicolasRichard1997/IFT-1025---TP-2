@@ -60,7 +60,7 @@ public class Controller {
                             //
                             if (Model.sessions.contains(arg) == true) {
                                 //System.out.println(Model.sessions.contains(arg));
-                                oos.writeObject(Model.eventsHandler("CHARGER", arg));
+                                oos.writeObject(Model.loadCoursesCMD(arg));
                                 oos.flush();
                                 connectionTracker = 2;
 
@@ -110,7 +110,7 @@ public class Controller {
                                 case "2":
 
                                     connectionTracker = 4;
-
+                                    connected = false;
                                     break;
 
                                 default:
@@ -123,6 +123,20 @@ public class Controller {
 
                         // Inscription
                         case 4:
+
+                            /*********
+                             *
+                             *
+                             *
+                             * Modify registerInfo to be a String[] ONLYYYYYYY
+                             *
+                             *
+                             *
+                             *
+                             *
+                             */
+
+
 
                             // Here I am forced to initialize the ArrayList with empty values to prevent using
                             // registerInfo.add("Strirng")
@@ -243,19 +257,47 @@ public class Controller {
 
                                         case 6:
 
+                                            oos.writeObject("INSCRIRE");
+                                            oos.flush();
 
+                                            //System.out.println("Handle Registration CMD Sent");
 
-                                            System.out.println(registerInfo);
+                                            try{
+                                                String RegInfString = registerInfo.get(0)+","+registerInfo.get(1)+","+
+                                                        registerInfo.get(2)+","+registerInfo.get(3)+","+
+                                                        registerInfo.get(4);
 
-                                            connectionTracker = 1000000000; //Pas chic mais efficace
+                                                oos.writeObject(RegInfString);
+                                                insciptionController = 7;
+                                            }
+
+                                            catch(Exception e){
+                                                System.out.println("Impossible de joindre le serveur");
+                                            }
+
                                             inscription = false;
+                                            connectionTracker = 5;
                                             break;
 
                                     }
                                 }
+                                //connected = false;
+                                break;
 
                         // Deconnection
-                        default:
+                        case 5:
+
+                            //System.out.println("case 5 reached succesfully");
+
+                            Object objet;
+
+                            if((objet = ois.readObject().toString()) != null){
+
+                                System.out.println(objet);
+
+                            }
+
+
                             connected = false;
                             programRunning = false;
 

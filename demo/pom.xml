@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>GUI</groupId>
-    <artifactId>client_fx</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>demo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>client_fx</name>
+    <name>demo</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>gui.client_fx/gui.client_fx.application</mainClass>
+                            <mainClass>com.example.demo/com.example.demo.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
