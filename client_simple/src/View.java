@@ -1,6 +1,16 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class View {
+
+
+    // Variables
+    public static String welcomeText = "*** Bienvenue au portail d'inscription de cours de l'UdeM ***";
+
+    public static String sessionSelection = "Veuillez choisir la session pour laquelle vous voulez consulter " +
+            "la liste des cours:\n1. Automne\n2. Hiver\n3. Ete";
+
+    public static List<String> sessions = new ArrayList<>(List.of("1", "2", "3"));
 
 
 

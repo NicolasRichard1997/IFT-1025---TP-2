@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac5deb15-62ff-4de0-a2c7-b750ab31e24c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/client_fx/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/client_fx/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/client_fx/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/client_fx/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client_fx/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client_fx/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client_fx/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/client_fx/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/client_fx/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/client_fx/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/client_fx/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/client_fx/application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/client_fx/controller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../client_simple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client_simple/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client_simple/out/production/client_simple/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client_simple/out/production/client_simple/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client_simple/out/production/client_simple/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client_simple/out/production/client_simple/Model.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client_simple/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client_simple/src/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client_simple/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client_simple/src/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client_simple/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client_simple/src/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server" beforeDir="false" afterPath="$PROJECT_DIR$/../server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +79,11 @@
       <workItem from="1680828994161" duration="2397000" />
       <workItem from="1680050974970" duration="75000" />
       <workItem from="1680055505833" duration="4413000" />
+      <workItem from="1680900156816" duration="5498000" />
+      <workItem from="1680916222177" duration="789000" />
+      <workItem from="1680917021794" duration="62000" />
+      <workItem from="1680965859792" duration="4722000" />
+      <workItem from="1680970970122" duration="13829000" />
     </task>
     <servers />
   </component>

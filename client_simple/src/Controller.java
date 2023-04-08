@@ -43,7 +43,7 @@ public class Controller {
                         // Ecran de Bienvenue
                         case 0:
 
-                            View.commandLineprint(Model.welcomeText);
+                            View.commandLineprint(View.welcomeText);
 
                             connectionTracker = 1;
                             break;
@@ -51,14 +51,14 @@ public class Controller {
                         //Menu de Chargement
                         case 1:
 
-                            View.commandLineprint(Model.sessionSelection);
+                            View.commandLineprint(View.sessionSelection);
                             View.promptUserChoice();
                             //Scanner In
                             String arg = sc.nextLine();
                             //sc.nextLine();
 
                             //
-                            if (Model.sessions.contains(arg) == true) {
+                            if (View.sessions.contains(arg) == true) {
                                 //System.out.println(Model.sessions.contains(arg));
                                 oos.writeObject(Model.loadCoursesCMD(arg));
                                 oos.flush();

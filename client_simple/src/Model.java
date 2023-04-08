@@ -5,14 +5,6 @@ import java.util.regex.*;
 public class Model {
 
 
-    //Variables
-    public static String welcomeText = "*** Bienvenue au portail d'inscription de cours de l'UdeM ***";
-
-    public static String sessionSelection = "Veuillez choisir la session pour laquelle vous voulez consulter " +
-            "la liste des cours:\n1. Automne\n2. Hiver\n3. Ete";
-
-    public static List<String> sessions = new ArrayList<>(List.of("1", "2", "3"));
-
     //Methods
     public static String loadCoursesCMD(String arg) {
         return "CHARGER" + " " + arg;
@@ -21,7 +13,6 @@ public class Model {
     public static String registerCMD() {
         return "INSCRIRE" + " " + "NotAString";
     }
-
     @SuppressWarnings("Unchecked")
     public static ArrayList<ArrayList<String>> objectToCourseList(Object object) {
                     ArrayList<ArrayList<String>> courses = (ArrayList<ArrayList<String>>) object;
