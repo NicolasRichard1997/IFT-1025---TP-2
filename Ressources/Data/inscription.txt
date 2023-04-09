@@ -1,0 +1,16 @@
+Hiver	IFT2125	12345678	Nick	Richard	nicolas.richard.3@umontreal.ca
+Hiver	IFT2125	12345678	Nick	Rick	n.c@umontreal.ca
+Ete	IFT2256	12345677	Nicolas	Ricciardo	n.r.4@umontreal.ca
+Automne	IFT2255	12345678	Nini	Ricky	n.ricky@umontreal.ca
+Hiver	IFT2125	12345678	Nicolas	Richard	n.c@umontreal.ca
+Hiver	IFT2125	12345678	Nicolas	Richard	n.c@umontreal.ca
+Hiver	IFT1025	12345678	Nick	Rick	n.c@umontreal.ca
+Hiver	IFT1025	12345678	Nicolas	Richard	n.r@umontreal.ca
+Automne	IFT1227	12345678	Nick	Rick	n.c@umontreal.ca
+Hiver	IFT2125	12345678	Nick	d	n.c@umontreal.ca
+Automne	IFT2255	12345678	Nick	Antonio	n.c@umontreal.ca
+Automne	IFT1227	12345678	Nick	Rcik	lol.yep@umontreal.ca
+Hiver	IFT1025	12345678	Nick	Ricky	n.c@umontreal.ca
+Hiver	IFT2125	12345678	Nick	Rick	n.c@umontreal.ca
+Hiver	IFT2125	12345678	Nick	Rick	n.c@umontreal.ca
+Automne	IFT1015	12345678	Nick	Rick	n.richard@umontreal.ca

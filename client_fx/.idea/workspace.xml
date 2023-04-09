@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="client_fx:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac5deb15-62ff-4de0-a2c7-b750ab31e24c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/client_fx/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/client_fx/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client_fx.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/client_fx/AppLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client_simple.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/client_fx/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/client_fx/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/client_fx/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/client_fx/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/client_fx/application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/client_fx/controller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../client_simple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client_simple/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client_simple/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client_simple/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client_simple/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client_simple/src/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client_simple/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client_simple/src/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/hello-view.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../server" beforeDir="false" afterPath="$PROJECT_DIR$/../server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,14 +72,19 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;ToolWindowBuild.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nicolas/Desktop/Richard_Nicolas_IFT1025-TP2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -84,10 +104,17 @@
       <workItem from="1680917021794" duration="62000" />
       <workItem from="1680965859792" duration="4722000" />
       <workItem from="1680970970122" duration="13829000" />
+      <workItem from="1680985310931" duration="836000" />
+      <workItem from="1680986156045" duration="32000" />
+      <workItem from="1680995715700" duration="1756000" />
+      <workItem from="1680997536861" duration="177000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

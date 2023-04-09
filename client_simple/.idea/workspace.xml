@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="client_simple:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4467580b-015c-4967-8217-39a10ba27eb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../client_fx/src/main/java/gui/client_fx/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client_fx/src/main/java/gui/client_fx/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client_simple.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client_fx/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client_fx/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client_fx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client_fx/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client_fx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client_fx/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client_fx/src/main/java/gui/client_fx/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client_fx/src/main/java/gui/client_fx/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client_fx/src/main/java/gui/client_fx/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client_fx/src/main/java/gui/client_fx/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client_fx/src/main/java/gui/client_fx/application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client_fx/src/main/java/gui/client_fx/controller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/hello-view.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../server" beforeDir="false" afterPath="$PROJECT_DIR$/../server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +66,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nicolas/Desktop/Richard_Nicolas_IFT1025-TP2/client_simple&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nicolas/Desktop/Richard_Nicolas_IFT1025-TP2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -100,6 +115,10 @@
       <workItem from="1680978039536" duration="864000" />
       <workItem from="1680979485609" duration="91000" />
       <workItem from="1680982496339" duration="1459000" />
+      <workItem from="1680986916718" duration="178000" />
+      <workItem from="1680987184560" duration="466000" />
+      <workItem from="1680987888180" duration="98000" />
+      <workItem from="1680993211825" duration="780000" />
     </task>
     <servers />
   </component>
